@@ -276,8 +276,7 @@ int main()
     pizzacount[i].cost = P1->getcost();
     pizzacount[i].mcheese = P1->getmcheese();
     pizzacount[i].nsalt = P1->getnsalt();
-    pizzacount[i].sizep = P1->getsizep()
-    ;
+    pizzacount[i].sizep = P1->getsizep();
     cout << "Отлично! Вы добавили новую пиццу..." << endl;
     P1->write();
     delete P1;
